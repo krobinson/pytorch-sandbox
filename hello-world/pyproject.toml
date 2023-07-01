@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hello-world"
+version = "0.1.0"
+description = ""
+authors = ["Ken Robinson <kenrobinsonter@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hello_world"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytorch-lightning = "^2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
